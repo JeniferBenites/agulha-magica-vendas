@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/button';
 const Confirmation = () => {
   const handleWhatsAppClick = () => {
     // Aqui você pode colocar o link real do WhatsApp
-    window.open('https://wa.me/5511999999999?text=Olá! Quero participar do curso de costura!', '_blank');
+    window.open('https://chat.whatsapp.com/EGGnozfoYJB0B2BV0hozKz?text=Olá! Quero participar do curso de costura!', '_blank');
   };
 
   const handleSupportClick = () => {
     // Link para atendimento
-    window.open('https://wa.me/5511999999999?text=Preciso de ajuda para entrar no grupo!', '_blank');
+    window.open('https://wa.me/5566981121004?text=Preciso de ajuda para entrar noooo grupo!', '_blank');
   };
 
   return (
