@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Cores personalizadas para o site de costura
+				'costura-pink': '#FF69B4',
+				'costura-purple': '#9B59B6',
+				'costura-lilac': '#DDA0DD',
+				'costura-rose': '#FF1493',
+				'whatsapp-green': '#25D366',
+				'warning-orange': '#FF8C00'
+			},
+			backgroundImage: {
+				'gradient-costura': 'linear-gradient(135deg, #FF69B4 0%, #9B59B6 50%, #DDA0DD 100%)',
+				'gradient-soft': 'linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +96,29 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'pulse-soft': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0.8'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'pulse-soft': 'pulse-soft 2s ease-in-out infinite'
 			}
 		}
 	},
