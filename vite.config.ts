@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: "/https://github.com/JeniferBenites/agulha-magica-vendas.git/",
   plugins: [
     react(),
     mode === 'development' &&
