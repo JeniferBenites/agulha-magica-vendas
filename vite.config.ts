@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -9,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/agulha-magica-vendas/",
+  base: "/nome-do-seu-repositorio/", // Substitua pelo nome real do seu repositório
   plugins: [
     react(),
     mode === 'development' &&
