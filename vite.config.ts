@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/nome-do-seu-repositorio/", // Substitua pelo nome real do seu repositório
+  base: "/agulha-magica-vendas/", // Substitua pelo nome real do seu repositório
   plugins: [
     react(),
     mode === 'development' &&
